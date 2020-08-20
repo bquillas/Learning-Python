@@ -1,3 +1,7 @@
+# LISTAS
+# Las listas son mutables
+# Puedo quitar y añadi9r alementos a la lista
+
 objetos = ["Hola", 2, 4.5, True]
 
 objetos[0]
@@ -26,3 +30,13 @@ objetos[::-1]
 
 objetos[1:3]
 # [4.5, True]
+
+#-------------------------------
+numero = [1,2,3,4]
+numero2 = [5,6,7,8]
+
+lista_numeros = numero + numero2
+#lista_ numeros [1,2,3,4,5,6,7,8]
+
+numero * 3
+# [1,2,3,4,1,2,3,4,1,2,3,4]
