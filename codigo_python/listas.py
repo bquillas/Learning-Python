@@ -40,3 +40,10 @@ lista_numeros = numero + numero2
 
 numero * 3
 # [1,2,3,4,1,2,3,4,1,2,3,4]
+
+
+#uso de 'del' para eliminar por indices
+li = ['b','a','c']
+del li[0]
+li
+['a', 'c']
